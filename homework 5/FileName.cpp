@@ -7,11 +7,6 @@ void one();
 inline void Getline(std::string& str);
 void Err();
 
-
-
-
-
-
 int main()
 {
 	SetConsoleCP(1251);

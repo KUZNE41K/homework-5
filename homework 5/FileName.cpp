@@ -4,7 +4,7 @@
 #include <cctype>
 
 void one();
-inline void Getline();
+inline void Getline(std::string& str);
 void Err();
 
 
@@ -23,11 +23,7 @@ int main()
 	return 0;
 }
 
-inline void Getline(std::string& str)
-{
-	std::getline(std::cin, str, '\n');
 
-}
 
 void one()
 {
@@ -74,6 +70,12 @@ void one()
 		suggestion += '.';
 		std::cout << suggestion;
 	}
+}
+
+inline void Getline(std::string& str)
+{
+	std::getline(std::cin, str, '\n');
+
 }
 
 void Err()

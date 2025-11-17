@@ -11,6 +11,7 @@ void Err();
 
 
 
+
 int main()
 {
 	SetConsoleCP(1251);
